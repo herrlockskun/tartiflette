@@ -1,0 +1,130 @@
+{
+  "mod_elements": [
+    {
+      "name": "AbbyzzePortalTriggerUsed",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_portal_trigger_used",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AbbyzzeOnPortalTickUpdate",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_on_portal_tick_update",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AbbyzzePlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_player_enters_dimension",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AbbyzzePlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_player_leaves_dimension",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Abbyzze",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Abbyzzebiome",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzzebiome"
+    },
+    {
+      "name": "Deepwater",
+      "type": "fluid",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepwater",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Abbyzzium",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzzium"
+    },
+    {
+      "name": "Abbyzziumore",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzziumore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.tartiflette.deepwater": "Deepwater",
+      "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
+      "fluid.tartiflette.deepwater": "Deepwater",
+      "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
+      "item.tartiflette.abbyzziumore": "Abbyzziumore",
+      "block.tartiflette.abbyzzium": "Abbyzzium",
+      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tartiflette",
+    "modName": "tartiflette",
+    "version": "1.0.0",
+    "author": "guillaume, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tartiflette",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

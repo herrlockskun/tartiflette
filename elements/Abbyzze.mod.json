@@ -1,0 +1,58 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Abbyzzebiome"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DEAD_BUBBLE_CORAL_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "Blocks.DEAD_FIRE_CORAL_BLOCK"
+    },
+    "airColor": {
+      "value": -8035585,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": true,
+    "doesWaterVaporize": true,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "AbbyzzePlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "AbbyzzePlayerLeavesDimension"
+    },
+    "portalFrame": {
+      "value": "Blocks.DEAD_TUBE_CORAL_BLOCK"
+    },
+    "portalParticles": {
+      "value": "ASH"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.amethyst_cluster.hit"
+    },
+    "igniterName": "Abbyzze Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "test2",
+    "portalTexture": "jesaispas",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "AbbyzzePortalTriggerUsed"
+    },
+    "onPortalTickUpdate": {
+      "name": "AbbyzzeOnPortalTickUpdate"
+    }
+  }
+}

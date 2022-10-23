@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "tartiflette:block/abbyzze_portal_ew"
+    },
+    "axis=x": {
+      "model": "tartiflette:block/abbyzze_portal_ns"
+    }
+  }
+}
