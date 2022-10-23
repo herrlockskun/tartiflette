@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tartiflette:block/abbyzze_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tartiflette:block/abbyzze_wood_log"
+    },
+    "axis=z": {
+      "model": "tartiflette:block/abbyzze_wood_log",
+      "x": 90
+    }
+  }
+}

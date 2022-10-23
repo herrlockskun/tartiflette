@@ -6,20 +6,20 @@
   ],
   "key": {
     "0": {
-      "item": "tartiflette:deleted_mod_element"
+      "item": "tartiflette:abbyzz"
     },
     "2": {
-      "item": "tartiflette:deleted_mod_element"
+      "item": "tartiflette:abbyzz"
     },
     "3": {
-      "item": "tartiflette:deleted_mod_element"
+      "item": "tartiflette:abbyzz"
     },
     "5": {
-      "item": "tartiflette:deleted_mod_element"
+      "item": "tartiflette:abbyzz"
     }
   },
   "result": {
-    "item": "tartiflette:deleted_mod_element_boots",
+    "item": "tartiflette:abbyzz_armor_boots",
     "count": 1
   }
 }

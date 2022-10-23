@@ -1,7 +1,14 @@
 
 package net.mcreator.tartiflette.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.tartiflette.init.TartifletteModItems;
 
 public class AbbyzzSwordItem extends SwordItem {
 	public AbbyzzSwordItem() {
@@ -27,13 +34,8 @@ public class AbbyzzSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(TartifletteModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(TartifletteModItems.ABBYZZ.get()));
 			}
-		},
-
-				3, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
-
 }

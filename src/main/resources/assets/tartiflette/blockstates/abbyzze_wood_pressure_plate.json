@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "tartiflette:block/abbyzze_wood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "tartiflette:block/abbyzze_wood_pressure_plate_down"
+    }
+  }
+}

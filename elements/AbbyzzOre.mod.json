@@ -77,35 +77,35 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "STONE"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.netherite_block.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.netherite_block.fall"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.netherite_block.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.netherite_block.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.netherite_block.step"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 19,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SQUID_INK"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 4.0,
+    "particleAmount": 100,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -124,17 +124,36 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:Abbyzze"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Abbyzzebiome"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.DEAD_TUBE_CORAL_BLOCK"
+      },
+      {
+        "value": "Blocks.DEAD_BRAIN_CORAL_BLOCK"
+      },
+      {
+        "value": "Blocks.DEAD_BUBBLE_CORAL_BLOCK"
+      },
+      {
+        "value": "Blocks.DEAD_FIRE_CORAL_BLOCK"
+      },
+      {
+        "value": "Blocks.DEAD_HORN_CORAL_BLOCK"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 0,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 10,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 8
   }

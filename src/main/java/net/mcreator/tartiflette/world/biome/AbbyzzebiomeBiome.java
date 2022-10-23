@@ -22,12 +22,9 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 
-import net.mcreator.tartiflette.world.features.treedecorators.AbbyzzebiomeTrunkDecorator;
-import net.mcreator.tartiflette.world.features.treedecorators.AbbyzzebiomeLeaveDecorator;
+import net.mcreator.tartiflette.init.TartifletteModBlocks;
 
 import java.util.List;
-
-import com.google.common.collect.ImmutableList;
 
 public class AbbyzzebiomeBiome {
 	public static Biome createBiome() {
@@ -35,11 +32,10 @@ public class AbbyzzebiomeBiome {
 				.skyColor(-13893588).foliageColorOverride(-15021057).grassColorOverride(-11851009).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("tartiflette:tree_abbyzzebiome",
-				FeatureUtils.register("tartiflette:tree_abbyzzebiome", Feature.TREE,
-						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.OAK_LOG.defaultBlockState()),
-								new StraightTrunkPlacer(4, 2, 0), BlockStateProvider.simple(Blocks.OAK_LEAVES.defaultBlockState()),
-								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
-								.decorators(ImmutableList.of(AbbyzzebiomeLeaveDecorator.INSTANCE, AbbyzzebiomeTrunkDecorator.INSTANCE)).build()),
+				FeatureUtils.register("tartiflette:tree_abbyzzebiome", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+						BlockStateProvider.simple(TartifletteModBlocks.ABBYZZE_WOOD_WOOD.get().defaultBlockState()), new StraightTrunkPlacer(7, 2, 0),
+						BlockStateProvider.simple(TartifletteModBlocks.ABBYZZE_WOOD_LEAVES.get().defaultBlockState()),
+						new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)).ignoreVines().build()),
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 						PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING), BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);

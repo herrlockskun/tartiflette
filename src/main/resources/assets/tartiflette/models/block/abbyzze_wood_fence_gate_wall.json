@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "tartiflette:blocks/abbyzze_wood_planks"
+  }
+}

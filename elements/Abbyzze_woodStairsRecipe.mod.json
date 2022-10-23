@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Abbyzze_woodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Abbyzze_woodPlanks"
+      },
+      {
+        "value": "CUSTOM:Abbyzze_woodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Abbyzze_woodPlanks"
+      },
+      {
+        "value": "CUSTOM:Abbyzze_woodPlanks"
+      },
+      {
+        "value": "CUSTOM:Abbyzze_woodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Abbyzze_woodStairs"
+    },
+    "name": "abbyzze_wood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

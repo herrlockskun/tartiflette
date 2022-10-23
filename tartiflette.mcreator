@@ -255,17 +255,199 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "abbyzz_block"
+    },
+    {
+      "name": "Abbyzze_woodWood",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_wood"
+    },
+    {
+      "name": "Abbyzze_woodLog",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_log"
+    },
+    {
+      "name": "Abbyzze_woodPlanks",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_planks"
+    },
+    {
+      "name": "Abbyzze_woodLeaves",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_leaves"
+    },
+    {
+      "name": "Abbyzze_woodStairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_stairs"
+    },
+    {
+      "name": "Abbyzze_woodSlab",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_slab"
+    },
+    {
+      "name": "Abbyzze_woodFence",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence"
+    },
+    {
+      "name": "Abbyzze_woodFenceGate",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence_gate"
+    },
+    {
+      "name": "Abbyzze_woodPressurePlate",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_pressure_plate"
+    },
+    {
+      "name": "Abbyzze_woodButton",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_button"
+    },
+    {
+      "name": "Abbyzze_woodItemsTag",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_items_tag"
+    },
+    {
+      "name": "Abbyzze_woodWoodRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_wood_recipe"
+    },
+    {
+      "name": "Abbyzze_woodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_planks_recipe"
+    },
+    {
+      "name": "Abbyzze_woodStairsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_stairs_recipe"
+    },
+    {
+      "name": "Abbyzze_woodSlabRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_slab_recipe"
+    },
+    {
+      "name": "Abbyzze_woodFenceRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence_recipe"
+    },
+    {
+      "name": "Abbyzze_woodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence_gate_recipe"
+    },
+    {
+      "name": "Abbyzze_woodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "Abbyzze_woodButtonRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_button_recipe"
+    },
+    {
+      "name": "Abbyzze_woodStickRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_stick_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
+      "block.tartiflette.abbyzze_wood_fence": "Abbyzze_wood Fence",
+      "block.tartiflette.abbyzze_wood_leaves": "Abbyzze_wood Leaves",
+      "item.tartiflette.abbyzz_armor_chestplate": "Abbyzz Chestplate",
+      "block.tartiflette.abbyzz_ore": "Abbyzz Ore",
       "fluid.tartiflette.deepwater": "Deepwater",
+      "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
+      "block.tartiflette.abbyzze_wood_planks": "Abbyzze_wood Planks",
+      "item.tartiflette.abbyzz_axe": "Abbyzz Axe",
+      "block.tartiflette.abbyzze_wood_log": "Abbyzze_wood Log",
+      "block.tartiflette.abbyzze_wood_button": "Abbyzze_wood Button",
+      "item.tartiflette.abbyzz_armor_helmet": "Abbyzz Helmet",
+      "item.tartiflette.abbyzz_shovel": "Abbyzz Shovel",
+      "block.tartiflette.abbyzze_wood_pressure_plate": "Abbyzze_wood Pressure Plate",
       "block.tartiflette.deepwater": "Deepwater",
+      "block.tartiflette.abbyzze_wood_wood": "Abbyzze_wood Wood",
+      "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",
+      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter",
+      "block.tartiflette.abbyzze_wood_slab": "Abbyzze_wood Slab",
+      "block.tartiflette.abbyzz_block": "Block of Abbyzz",
+      "item.tartiflette.abbyzz_sword": "Abbyzz Sword",
+      "block.tartiflette.abbyzze_wood_stairs": "Abbyzze_wood Stairs",
+      "item.tartiflette.abbyzz_pickaxe": "Abbyzz Pickaxe",
       "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
-      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter"
+      "block.tartiflette.abbyzze_wood_fence_gate": "Abbyzze_wood Fence Gate",
+      "item.tartiflette.abbyzz": "Abbyzz",
+      "item.tartiflette.abbyzz_armor_leggings": "Abbyzz Leggings",
+      "item.tartiflette.abbyzz_armor_boots": "Abbyzz Boots"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tartiflette:abbyzze_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "tartiflette:abbyzze_wood_button",
+    "count": 1
+  }
+}
