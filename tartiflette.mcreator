@@ -436,15 +436,15 @@
       "item.tartiflette.abbyzz_axe": "Abbyzz Axe",
       "item.tartiflette.abbyzz_armor_helmet": "Abbyzz Helmet",
       "item.tartiflette.abbyzz_shovel": "Abbyzz Shovel",
-      "block.tartiflette.deepwater": "Deepwater",
-      "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",
-      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter",
       "block.tartiflette.abbyzz_block": "Block of Abbyzz",
       "item.tartiflette.abbyzz_sword": "Abbyzz Sword",
+      "block.tartiflette.deepwater": "Deepwater",
       "item.tartiflette.abbyzz_pickaxe": "Abbyzz Pickaxe",
       "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
+      "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",
       "item.tartiflette.abbyzz": "Abbyzz",
       "item.tartiflette.abbyzz_armor_leggings": "Abbyzz Leggings",
+      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter",
       "item.tartiflette.abbyzz_armor_boots": "Abbyzz Boots"
     }
   },
