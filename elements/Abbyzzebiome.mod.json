@@ -71,16 +71,16 @@
     "cactiPerChunk": 0,
     "treesPerChunk": 10,
     "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": "Blocks.CRYING_OBSIDIAN"
+      "value": "CUSTOM:Abbyzze_woodWood"
     },
     "treeBranch": {
-      "value": "Blocks.BLACKSTONE"
+      "value": "CUSTOM:Abbyzze_woodLeaves"
     },
     "treeVines": {
-      "value": "Blocks.SCULK_SENSOR"
+      "value": ""
     },
     "treeFruits": {
       "value": ""

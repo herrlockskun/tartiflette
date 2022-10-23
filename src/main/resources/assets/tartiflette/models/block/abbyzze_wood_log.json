@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tartiflette:blocks/abbyzze_wood_log_top",
+    "up": "tartiflette:blocks/abbyzze_wood_log_top",
+    "north": "tartiflette:blocks/abbyzze_wood_log_side",
+    "east": "tartiflette:blocks/abbyzze_wood_log_side",
+    "south": "tartiflette:blocks/abbyzze_wood_log_side",
+    "west": "tartiflette:blocks/abbyzze_wood_log_side",
+    "particle": "tartiflette:blocks/abbyzze_wood_log_top"
+  }
+}

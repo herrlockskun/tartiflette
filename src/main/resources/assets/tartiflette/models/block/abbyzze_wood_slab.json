@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "tartiflette:blocks/abbyzze_wood_planks",
+    "top": "tartiflette:blocks/abbyzze_wood_planks",
+    "side": "tartiflette:blocks/abbyzze_wood_planks"
+  }
+}

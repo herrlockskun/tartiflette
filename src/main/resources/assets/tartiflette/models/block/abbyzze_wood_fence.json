@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "tartiflette:blocks/abbyzze_wood_planks",
+    "particle": "tartiflette:blocks/abbyzze_wood_planks"
+  }
+}

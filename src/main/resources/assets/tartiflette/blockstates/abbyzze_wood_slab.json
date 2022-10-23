@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tartiflette:block/abbyzze_wood_slab"
+    },
+    "type=top": {
+      "model": "tartiflette:block/abbyzze_wood_slab_top"
+    },
+    "type=double": {
+      "model": "tartiflette:block/abbyzze_wood_slab_full"
+    }
+  }
+}

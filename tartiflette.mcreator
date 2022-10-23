@@ -255,6 +255,166 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "abbyzz_armor_boots_recipe"
+    },
+    {
+      "name": "Abbyzze_woodStairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_stairs"
+    },
+    {
+      "name": "Abbyzze_woodPressurePlate",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_pressure_plate"
+    },
+    {
+      "name": "Abbyzze_woodSlabRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_slab_recipe"
+    },
+    {
+      "name": "Abbyzze_woodLog",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_log"
+    },
+    {
+      "name": "Abbyzze_woodFence",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence"
+    },
+    {
+      "name": "Abbyzze_woodStairsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_stairs_recipe"
+    },
+    {
+      "name": "Abbyzze_woodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence_gate_recipe"
+    },
+    {
+      "name": "Abbyzze_woodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "Abbyzze_woodItemsTag",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_items_tag"
+    },
+    {
+      "name": "Abbyzze_woodPlanks",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_planks"
+    },
+    {
+      "name": "Abbyzze_woodFenceGate",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence_gate"
+    },
+    {
+      "name": "Abbyzze_woodButton",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_button"
+    },
+    {
+      "name": "Abbyzze_woodSlab",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_slab"
+    },
+    {
+      "name": "Abbyzze_woodWoodRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_wood_recipe"
+    },
+    {
+      "name": "Abbyzze_woodFenceRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_fence_recipe"
+    },
+    {
+      "name": "Abbyzze_woodButtonRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_button_recipe"
+    },
+    {
+      "name": "Abbyzze_woodStickRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_stick_recipe"
+    },
+    {
+      "name": "Abbyzze_woodWood",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_wood"
+    },
+    {
+      "name": "Abbyzze_woodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_planks_recipe"
+    },
+    {
+      "name": "Abbyzze_woodLeaves",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzze_wood_leaves"
     }
   ],
   "variable_elements": [],
@@ -268,15 +428,15 @@
       "item.tartiflette.abbyzz_axe": "Abbyzz Axe",
       "item.tartiflette.abbyzz_shovel": "Abbyzz Shovel",
       "item.tartiflette.abbyzz_armor_helmet": "Abbyzz Helmet",
+      "block.tartiflette.deepwater": "Deepwater",
+      "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",
+      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter",
       "block.tartiflette.abbyzz_block": "Block of Abbyzz",
       "item.tartiflette.abbyzz_sword": "Abbyzz Sword",
-      "block.tartiflette.deepwater": "Deepwater",
       "item.tartiflette.abbyzz_pickaxe": "Abbyzz Pickaxe",
       "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
-      "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",
       "item.tartiflette.abbyzz": "Abbyzz",
       "item.tartiflette.abbyzz_armor_leggings": "Abbyzz Leggings",
-      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter",
       "item.tartiflette.abbyzz_armor_boots": "Abbyzz Boots"
     }
   },

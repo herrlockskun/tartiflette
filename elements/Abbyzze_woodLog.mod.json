@@ -2,15 +2,15 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "abbyzz_ore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "texture": "abbyzze_wood_log_top",
+    "textureTop": "abbyzze_wood_log_top",
+    "textureLeft": "abbyzze_wood_log_side",
+    "textureFront": "abbyzze_wood_log_side",
+    "textureRight": "abbyzze_wood_log_side",
+    "textureBack": "abbyzze_wood_log_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,28 +33,28 @@
         "subtract": false
       }
     ],
-    "name": "Abbyzz Ore",
+    "name": "Abbyzze_wood Log",
     "specialInfo": [],
-    "hardness": 28.200000000000003,
-    "resistance": 30.024258268223765,
+    "hardness": 4.0,
+    "resistance": 3.4822022531844965,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:Abbyzz"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -69,7 +69,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 10,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -77,35 +77,35 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "breakSound": {
-      "value": "block.netherite_block.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.netherite_block.fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.netherite_block.hit"
+      "value": ""
     },
     "placeSound": {
-      "value": "block.netherite_block.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "block.netherite_block.step"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SQUID_INK"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 4.0,
-    "particleAmount": 100,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -123,38 +123,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:Abbyzze"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Abbyzzebiome"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.DEAD_TUBE_CORAL_BLOCK"
-      },
-      {
-        "value": "Blocks.DEAD_BRAIN_CORAL_BLOCK"
-      },
-      {
-        "value": "Blocks.DEAD_BUBBLE_CORAL_BLOCK"
-      },
-      {
-        "value": "Blocks.DEAD_FIRE_CORAL_BLOCK"
-      },
-      {
-        "value": "Blocks.DEAD_HORN_CORAL_BLOCK"
       }
     ],
-    "generationShape": "TRIANGLE",
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 10,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 8
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

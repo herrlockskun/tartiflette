@@ -44,10 +44,10 @@ public class AbbyzzOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new AbbyzzOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("tartiflette:abbyzz_ore", FEATURE,
-				new OreConfiguration(AbbyzzOreFeatureRuleTest.INSTANCE, TartifletteModBlocks.ABBYZZ_ORE.get().defaultBlockState(), 0));
+				new OreConfiguration(AbbyzzOreFeatureRuleTest.INSTANCE, TartifletteModBlocks.ABBYZZ_ORE.get().defaultBlockState(), 10));
 		PLACED_FEATURE = PlacementUtils.register("tartiflette:abbyzz_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(8)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
+						HeightRangePlacement.triangle(VerticalAnchor.absolute(1), VerticalAnchor.absolute(8)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -55,8 +55,9 @@ public class AbbyzzOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("tartiflette:abbyzzebiome"));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("tartiflette:abbyzze")));
 
 	public AbbyzzOreFeature() {
 		super(OreConfiguration.CODEC);
@@ -84,7 +85,8 @@ public class AbbyzzOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE);
+				base_blocks = List.of(Blocks.STONE, Blocks.DEAD_TUBE_CORAL_BLOCK, Blocks.DEAD_BRAIN_CORAL_BLOCK, Blocks.DEAD_BUBBLE_CORAL_BLOCK,
+						Blocks.DEAD_FIRE_CORAL_BLOCK, Blocks.DEAD_HORN_CORAL_BLOCK);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}
