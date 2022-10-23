@@ -14,38 +14,33 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.tartiflette.item.DeepwaterItem;
-import net.mcreator.tartiflette.item.AbbyzziumoreItem;
-import net.mcreator.tartiflette.item.Abbyzzium_pickaseSwordItem;
-import net.mcreator.tartiflette.item.Abbyzzium_pickaseShovelItem;
-import net.mcreator.tartiflette.item.Abbyzzium_pickasePickaxeItem;
-import net.mcreator.tartiflette.item.Abbyzzium_pickaseHoeItem;
-import net.mcreator.tartiflette.item.Abbyzzium_pickaseAxeItem;
-import net.mcreator.tartiflette.item.Abbyzzium_armorArmorItem;
 import net.mcreator.tartiflette.item.AbbyzzeItem;
+import net.mcreator.tartiflette.item.AbbyzzSwordItem;
+import net.mcreator.tartiflette.item.AbbyzzShovelItem;
+import net.mcreator.tartiflette.item.AbbyzzPickaxeItem;
+import net.mcreator.tartiflette.item.AbbyzzItem;
+import net.mcreator.tartiflette.item.AbbyzzHoeItem;
+import net.mcreator.tartiflette.item.AbbyzzAxeItem;
+import net.mcreator.tartiflette.item.AbbyzzArmorItem;
 import net.mcreator.tartiflette.TartifletteMod;
 
 public class TartifletteModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TartifletteMod.MODID);
 	public static final RegistryObject<Item> ABBYZZE = REGISTRY.register("abbyzze", () -> new AbbyzzeItem());
 	public static final RegistryObject<Item> DEEPWATER_BUCKET = REGISTRY.register("deepwater_bucket", () -> new DeepwaterItem());
-	public static final RegistryObject<Item> ABBYZZIUM = block(TartifletteModBlocks.ABBYZZIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> ABBYZZIUMORE = REGISTRY.register("abbyzziumore", () -> new AbbyzziumoreItem());
-	public static final RegistryObject<Item> ABBYZZIUM_ARMOR_ARMOR_HELMET = REGISTRY.register("abbyzzium_armor_armor_helmet",
-			() -> new Abbyzzium_armorArmorItem.Helmet());
-	public static final RegistryObject<Item> ABBYZZIUM_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("abbyzzium_armor_armor_chestplate",
-			() -> new Abbyzzium_armorArmorItem.Chestplate());
-	public static final RegistryObject<Item> ABBYZZIUM_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("abbyzzium_armor_armor_leggings",
-			() -> new Abbyzzium_armorArmorItem.Leggings());
-	public static final RegistryObject<Item> ABBYZZIUM_ARMOR_ARMOR_BOOTS = REGISTRY.register("abbyzzium_armor_armor_boots",
-			() -> new Abbyzzium_armorArmorItem.Boots());
-	public static final RegistryObject<Item> ABBYZZIUM_PICKASE_PICKAXE = REGISTRY.register("abbyzzium_pickase_pickaxe",
-			() -> new Abbyzzium_pickasePickaxeItem());
-	public static final RegistryObject<Item> ABBYZZIUM_PICKASE_AXE = REGISTRY.register("abbyzzium_pickase_axe", () -> new Abbyzzium_pickaseAxeItem());
-	public static final RegistryObject<Item> ABBYZZIUM_PICKASE_SWORD = REGISTRY.register("abbyzzium_pickase_sword",
-			() -> new Abbyzzium_pickaseSwordItem());
-	public static final RegistryObject<Item> ABBYZZIUM_PICKASE_SHOVEL = REGISTRY.register("abbyzzium_pickase_shovel",
-			() -> new Abbyzzium_pickaseShovelItem());
-	public static final RegistryObject<Item> ABBYZZIUM_PICKASE_HOE = REGISTRY.register("abbyzzium_pickase_hoe", () -> new Abbyzzium_pickaseHoeItem());
+	public static final RegistryObject<Item> ABBYZZ = REGISTRY.register("abbyzz", () -> new AbbyzzItem());
+	public static final RegistryObject<Item> ABBYZZ_ORE = block(TartifletteModBlocks.ABBYZZ_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ABBYZZ_BLOCK = block(TartifletteModBlocks.ABBYZZ_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ABBYZZ_PICKAXE = REGISTRY.register("abbyzz_pickaxe", () -> new AbbyzzPickaxeItem());
+	public static final RegistryObject<Item> ABBYZZ_AXE = REGISTRY.register("abbyzz_axe", () -> new AbbyzzAxeItem());
+	public static final RegistryObject<Item> ABBYZZ_SWORD = REGISTRY.register("abbyzz_sword", () -> new AbbyzzSwordItem());
+	public static final RegistryObject<Item> ABBYZZ_SHOVEL = REGISTRY.register("abbyzz_shovel", () -> new AbbyzzShovelItem());
+	public static final RegistryObject<Item> ABBYZZ_HOE = REGISTRY.register("abbyzz_hoe", () -> new AbbyzzHoeItem());
+	public static final RegistryObject<Item> ABBYZZ_ARMOR_HELMET = REGISTRY.register("abbyzz_armor_helmet", () -> new AbbyzzArmorItem.Helmet());
+	public static final RegistryObject<Item> ABBYZZ_ARMOR_CHESTPLATE = REGISTRY.register("abbyzz_armor_chestplate",
+			() -> new AbbyzzArmorItem.Chestplate());
+	public static final RegistryObject<Item> ABBYZZ_ARMOR_LEGGINGS = REGISTRY.register("abbyzz_armor_leggings", () -> new AbbyzzArmorItem.Leggings());
+	public static final RegistryObject<Item> ABBYZZ_ARMOR_BOOTS = REGISTRY.register("abbyzz_armor_boots", () -> new AbbyzzArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

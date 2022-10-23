@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "2": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "3": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "4": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "5": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "6": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "7": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "8": {
+      "item": "minecraft:netherite_leggings"
+    }
+  },
+  "result": {
+    "item": "tartiflette:armor_armor_chestplate",
+    "count": 1
+  }
+}

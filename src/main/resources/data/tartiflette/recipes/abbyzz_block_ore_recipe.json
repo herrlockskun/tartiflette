@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tartiflette:abbyzz_block"
+    }
+  ],
+  "result": {
+    "item": "tartiflette:abbyzz",
+    "count": 9
+  }
+}

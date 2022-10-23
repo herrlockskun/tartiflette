@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "2": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "3": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "5": {
+      "item": "minecraft:netherite_leggings"
+    }
+  },
+  "result": {
+    "item": "tartiflette:armor_armor_boots",
+    "count": 1
+  }
+}

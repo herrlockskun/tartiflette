@@ -75,22 +75,6 @@
       }
     },
     {
-      "name": "Abbyzzium",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium"
-    },
-    {
-      "name": "Abbyzziumore",
-      "type": "item",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzziumore"
-    },
-    {
       "name": "Lighter",
       "type": "recipe",
       "sortid": 9,
@@ -99,12 +83,140 @@
       "registry_name": "lighter"
     },
     {
-      "name": "Abbyzzium_armorArmor",
-      "type": "armor",
+      "name": "Abbyzz",
+      "type": "item",
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abbyzzium_armor_armor",
+      "registry_name": "abbyzz"
+    },
+    {
+      "name": "AbbyzzOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_ore"
+    },
+    {
+      "name": "AbbyzzBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_block"
+    },
+    {
+      "name": "AbbyzzOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_ore_block_recipe"
+    },
+    {
+      "name": "AbbyzzBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_block_ore_recipe"
+    },
+    {
+      "name": "AbbyzzOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_ore_smelting"
+    },
+    {
+      "name": "AbbyzzPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_pickaxe"
+    },
+    {
+      "name": "AbbyzzAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_axe"
+    },
+    {
+      "name": "AbbyzzSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_sword"
+    },
+    {
+      "name": "AbbyzzShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_shovel"
+    },
+    {
+      "name": "AbbyzzHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_hoe"
+    },
+    {
+      "name": "AbbyzzPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_pickaxe_recipe"
+    },
+    {
+      "name": "AbbyzzAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_axe_recipe"
+    },
+    {
+      "name": "AbbyzzSwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_sword_recipe"
+    },
+    {
+      "name": "AbbyzzShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_shovel_recipe"
+    },
+    {
+      "name": "AbbyzzHoeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_hoe_recipe"
+    },
+    {
+      "name": "AbbyzzArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzz_armor",
       "metadata": {
         "eh": true,
         "el": true,
@@ -113,138 +225,59 @@
       }
     },
     {
-      "name": "Abbyzzium_armorArmorHelmetRecipe",
+      "name": "AbbyzzArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abbyzzium_armor_armor_helmet_recipe"
+      "registry_name": "abbyzz_armor_helmet_recipe"
     },
     {
-      "name": "Abbyzzium_armorArmorBodyRecipe",
+      "name": "AbbyzzArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abbyzzium_armor_armor_body_recipe"
+      "registry_name": "abbyzz_armor_body_recipe"
     },
     {
-      "name": "Abbyzzium_armorArmorLeggingsRecipe",
+      "name": "AbbyzzArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abbyzzium_armor_armor_leggings_recipe"
+      "registry_name": "abbyzz_armor_leggings_recipe"
     },
     {
-      "name": "Abbyzzium_armorArmorBootsRecipe",
+      "name": "AbbyzzArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abbyzzium_armor_armor_boots_recipe"
-    },
-    {
-      "name": "Abbyzzium_pickasePickaxe",
-      "type": "tool",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_pickaxe"
-    },
-    {
-      "name": "Abbyzzium_pickaseAxe",
-      "type": "tool",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_axe"
-    },
-    {
-      "name": "Abbyzzium_pickaseSword",
-      "type": "tool",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_sword"
-    },
-    {
-      "name": "Abbyzzium_pickaseShovel",
-      "type": "tool",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_shovel"
-    },
-    {
-      "name": "Abbyzzium_pickaseHoe",
-      "type": "tool",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_hoe"
-    },
-    {
-      "name": "Abbyzzium_pickasePickaxeRecipe",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_pickaxe_recipe"
-    },
-    {
-      "name": "Abbyzzium_pickaseAxeRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_axe_recipe"
-    },
-    {
-      "name": "Abbyzzium_pickaseSwordRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_sword_recipe"
-    },
-    {
-      "name": "Abbyzzium_pickaseShovelRecipe",
-      "type": "recipe",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_shovel_recipe"
-    },
-    {
-      "name": "Abbyzzium_pickaseHoeRecipe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abbyzzium_pickase_hoe_recipe"
+      "registry_name": "abbyzz_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "fluid.tartiflette.deepwater": "Deepwater",
+      "item.tartiflette.abbyzz_armor_chestplate": "Abbyzz Chestplate",
+      "block.tartiflette.abbyzz_ore": "Abbyzz Ore",
       "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
-      "item.tartiflette.abbyzzium_pickase_hoe": "Abbyzzium_pickase Hoe",
-      "block.tartiflette.abbyzzium": "Abbyzzium",
-      "item.tartiflette.abbyzzium_pickase_shovel": "Abbyzzium_pickase Shovel",
-      "item.tartiflette.abbyzzium_armor_armor_helmet": "Abbyzzium_armor Helmet",
-      "item.tartiflette.abbyzzium_armor_armor_leggings": "Abbyzzium_armor Leggings",
-      "item.tartiflette.abbyzzium_armor_armor_chestplate": "Abbyzzium_armor Chestplate",
-      "item.tartiflette.abbyzzium_pickase_pickaxe": "Abbyzzium_pickase Pickaxe",
+      "fluid.tartiflette.deepwater": "Deepwater",
+      "item.tartiflette.abbyzz_axe": "Abbyzz Axe",
+      "item.tartiflette.abbyzz_shovel": "Abbyzz Shovel",
+      "item.tartiflette.abbyzz_armor_helmet": "Abbyzz Helmet",
+      "block.tartiflette.abbyzz_block": "Block of Abbyzz",
+      "item.tartiflette.abbyzz_sword": "Abbyzz Sword",
       "block.tartiflette.deepwater": "Deepwater",
-      "item.tartiflette.abbyzzium_pickase_sword": "Abbyzzium_pickase Sword",
+      "item.tartiflette.abbyzz_pickaxe": "Abbyzz Pickaxe",
       "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
-      "item.tartiflette.abbyzzium_armor_armor_boots": "Abbyzzium_armor Boots",
-      "item.tartiflette.abbyzzium_pickase_axe": "Abbyzzium_pickase Axe",
-      "item.tartiflette.abbyzziumore": "Abbyzziumore",
-      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter"
+      "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",
+      "item.tartiflette.abbyzz": "Abbyzz",
+      "item.tartiflette.abbyzz_armor_leggings": "Abbyzz Leggings",
+      "item.tartiflette.abbyzze": "Abbyzze Portal Igniter",
+      "item.tartiflette.abbyzz_armor_boots": "Abbyzz Boots"
     }
   },
   "foldersRoot": {

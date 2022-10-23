@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 6.58,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tartiflette:abbyzz_ore"
+  },
+  "result": "tartiflette:abbyzz"
+}

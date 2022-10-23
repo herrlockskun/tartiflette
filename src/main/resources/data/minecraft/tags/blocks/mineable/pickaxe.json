@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tartiflette:abbyzzium"
+    "tartiflette:abbyzz_ore",
+    "tartiflette:abbyzz_block"
   ]
 }
