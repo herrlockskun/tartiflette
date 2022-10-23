@@ -5,17 +5,17 @@
   ],
   "key": {
     "0": {
-      "item": "tartiflette:abbyzze_wood_planks"
+      "item": "tartiflette:deleted_mod_element"
     },
     "1": {
-      "item": "tartiflette:abbyzze_wood_planks"
+      "item": "tartiflette:deleted_mod_element"
     },
     "2": {
-      "item": "tartiflette:abbyzze_wood_planks"
+      "item": "tartiflette:deleted_mod_element"
     }
   },
   "result": {
-    "item": "tartiflette:abbyzze_wood_slab",
+    "item": "tartiflette:deleted_mod_element",
     "count": 6
   }
 }

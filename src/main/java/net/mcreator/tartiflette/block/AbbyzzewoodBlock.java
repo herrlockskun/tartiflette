@@ -1,32 +1,9 @@
 
 package net.mcreator.tartiflette.block;
 
-import net.minecraftforge.common.PlantType;
-import net.minecraftforge.common.ForgeHooks;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SugarCaneBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-
-import net.mcreator.tartiflette.init.TartifletteModBlocks;
-
-import java.util.Random;
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class AbbyzzewoodBlock extends SugarCaneBlock {
 	public AbbyzzewoodBlock() {
@@ -45,6 +22,7 @@ public class AbbyzzewoodBlock extends SugarCaneBlock {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -55,7 +33,10 @@ public class AbbyzzewoodBlock extends SugarCaneBlock {
 	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
-		return groundState.is(this) || groundState.is(Blocks.DEAD_TUBE_CORAL_BLOCK) || groundState.is(Blocks.DEAD_BRAIN_CORAL_BLOCK)
+
+		return groundState.is(this) ||
+
+				groundState.is(Blocks.DEAD_TUBE_CORAL_BLOCK) || groundState.is(Blocks.DEAD_BRAIN_CORAL_BLOCK)
 				|| groundState.is(Blocks.DEAD_BUBBLE_CORAL_BLOCK) || groundState.is(Blocks.DEAD_FIRE_CORAL_BLOCK)
 				|| groundState.is(Blocks.DEAD_HORN_CORAL_BLOCK)
 
@@ -89,4 +70,5 @@ public class AbbyzzewoodBlock extends SugarCaneBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(TartifletteModBlocks.ABBYZZEWOOD.get(), renderType -> renderType == RenderType.cutout());
 	}
+
 }
