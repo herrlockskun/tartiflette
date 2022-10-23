@@ -7,10 +7,15 @@ package net.mcreator.tartiflette.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.tartiflette.block.DeepwaterBlock;
+import net.mcreator.tartiflette.block.AbbyzzewoodBlock;
 import net.mcreator.tartiflette.block.Abbyzze_woodWoodBlock;
 import net.mcreator.tartiflette.block.Abbyzze_woodStairsBlock;
 import net.mcreator.tartiflette.block.Abbyzze_woodSlabBlock;
@@ -44,4 +49,13 @@ public class TartifletteModBlocks {
 	public static final RegistryObject<Block> ABBYZZE_WOOD_PRESSURE_PLATE = REGISTRY.register("abbyzze_wood_pressure_plate",
 			() -> new Abbyzze_woodPressurePlateBlock());
 	public static final RegistryObject<Block> ABBYZZE_WOOD_BUTTON = REGISTRY.register("abbyzze_wood_button", () -> new Abbyzze_woodButtonBlock());
+	public static final RegistryObject<Block> ABBYZZEWOOD = REGISTRY.register("abbyzzewood", () -> new AbbyzzewoodBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			AbbyzzewoodBlock.registerRenderLayer();
+		}
+	}
 }

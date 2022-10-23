@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "abbyzz_ore",
+    "texture": "abbyzzzzzzzze",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -99,12 +99,12 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 4,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "SQUID_INK"
+      "value": "SOUL_FIRE_FLAME"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 4.0,
+    "particleSpawningRadious": 1.0,
     "particleAmount": 100,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -154,7 +154,7 @@
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 10,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 8
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 128
   }
 }

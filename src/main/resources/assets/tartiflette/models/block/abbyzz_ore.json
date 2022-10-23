@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tartiflette:blocks/abbyzz_ore",
-    "particle": "tartiflette:blocks/abbyzz_ore"
+    "all": "tartiflette:blocks/abbyzzzzzzzze",
+    "particle": "tartiflette:blocks/abbyzzzzzzzze"
   }
 }

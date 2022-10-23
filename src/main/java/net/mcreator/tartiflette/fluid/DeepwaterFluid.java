@@ -24,12 +24,12 @@ public abstract class DeepwaterFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(TartifletteModFluids.DEEPWATER,
 			TartifletteModFluids.FLOWING_DEEPWATER,
 			DeepwaterFluidAttributes
-					.builder(new ResourceLocation("tartiflette:blocks/deep_water"), new ResourceLocation("tartiflette:blocks/jesaispas"))
+					.builder(new ResourceLocation("tartiflette:blocks/deep_water_still"), new ResourceLocation("tartiflette:blocks/deep_water_flow"))
 
 					.sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.deepslate_bricks.fall"))).color(-13083194))
 			.explosionResistance(100f).canMultiply().tickRate(1)
 
-			.bucket(TartifletteModItems.DEEPWATER_BUCKET).block(() -> (LiquidBlock) TartifletteModBlocks.DEEPWATER.get());
+			.slopeFindDistance(1).bucket(TartifletteModItems.DEEPWATER_BUCKET).block(() -> (LiquidBlock) TartifletteModBlocks.DEEPWATER.get());
 
 	private DeepwaterFluid() {
 		super(PROPERTIES);
@@ -42,7 +42,7 @@ public abstract class DeepwaterFluid extends ForgeFlowingFluid {
 
 	@Override
 	public Vec3 getFlow(BlockGetter world, BlockPos pos, FluidState fluidstate) {
-		return super.getFlow(world, pos, fluidstate).scale(0);
+		return super.getFlow(world, pos, fluidstate).scale(-10);
 	}
 
 	public static class Source extends DeepwaterFluid {

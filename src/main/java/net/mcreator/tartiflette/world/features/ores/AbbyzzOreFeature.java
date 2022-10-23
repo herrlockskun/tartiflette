@@ -47,7 +47,7 @@ public class AbbyzzOreFeature extends OreFeature {
 				new OreConfiguration(AbbyzzOreFeatureRuleTest.INSTANCE, TartifletteModBlocks.ABBYZZ_ORE.get().defaultBlockState(), 10));
 		PLACED_FEATURE = PlacementUtils.register("tartiflette:abbyzz_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(1), VerticalAnchor.absolute(8)), BiomeFilter.biome()));
+						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

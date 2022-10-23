@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.tartiflette.world.features.plants.AbbyzzewoodFeature;
 import net.mcreator.tartiflette.world.features.ores.AbbyzzOreFeature;
 import net.mcreator.tartiflette.world.features.lakes.DeepwaterFeature;
 import net.mcreator.tartiflette.TartifletteMod;
@@ -34,6 +35,8 @@ public class TartifletteModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.LAKES, DeepwaterFeature.GENERATE_BIOMES, DeepwaterFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ABBYZZ_ORE = register("abbyzz_ore", AbbyzzOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, AbbyzzOreFeature.GENERATE_BIOMES, AbbyzzOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ABBYZZEWOOD = register("abbyzzewood", AbbyzzewoodFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, AbbyzzewoodFeature.GENERATE_BIOMES, AbbyzzewoodFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -25,7 +25,7 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16751002,
+      "value": -13434625,
       "falpha": 0.0
     },
     "waterFogColor": {
@@ -45,11 +45,11 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ASH"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 50.0,
     "biomeCategory": "NETHER",
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -74,7 +74,7 @@
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:Abbyzze_woodWood"
+      "value": "CUSTOM:Abbyzzewood"
     },
     "treeBranch": {
       "value": "CUSTOM:Abbyzze_woodLeaves"

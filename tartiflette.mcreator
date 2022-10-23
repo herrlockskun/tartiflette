@@ -415,6 +415,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "abbyzze_wood_stick_recipe"
+    },
+    {
+      "name": "Abbyzzewood",
+      "type": "plant",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abbyzzewood"
     }
   ],
   "variable_elements": [],
@@ -434,6 +442,7 @@
       "item.tartiflette.abbyzz_armor_helmet": "Abbyzz Helmet",
       "item.tartiflette.abbyzz_shovel": "Abbyzz Shovel",
       "block.tartiflette.abbyzze_wood_pressure_plate": "Abbyzze_wood Pressure Plate",
+      "block.tartiflette.abbyzzewood": "Abbyzzewood",
       "block.tartiflette.deepwater": "Deepwater",
       "block.tartiflette.abbyzze_wood_wood": "Abbyzze_wood Wood",
       "item.tartiflette.abbyzz_hoe": "Abbyzz Hoe",

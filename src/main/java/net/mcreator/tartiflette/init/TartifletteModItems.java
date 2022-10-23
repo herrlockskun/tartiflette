@@ -56,6 +56,7 @@ public class TartifletteModItems {
 			CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> ABBYZZE_WOOD_BUTTON = block(TartifletteModBlocks.ABBYZZE_WOOD_BUTTON,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ABBYZZEWOOD = block(TartifletteModBlocks.ABBYZZEWOOD, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "tartiflette:blocks/jesaispas",
+    "particle": "tartiflette:blocks/jesaispas"
+  }
+}

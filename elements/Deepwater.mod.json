@@ -4,18 +4,18 @@
   "definition": {
     "name": "Deepwater",
     "bucketName": "Deepwater Bucket",
-    "textureStill": "deep_water",
-    "textureFlowing": "jesaispas",
+    "textureStill": "deep_water_still",
+    "textureFlowing": "deep_water_flow",
     "tintType": "Water",
     "canMultiply": true,
     "flowRate": 1,
     "levelDecrease": 1,
-    "slopeFindDistance": 4,
+    "slopeFindDistance": 1,
     "spawnParticles": true,
     "dripParticle": {
       "value": "ASH"
     },
-    "flowStrength": 0.0,
+    "flowStrength": -10.0,
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,
