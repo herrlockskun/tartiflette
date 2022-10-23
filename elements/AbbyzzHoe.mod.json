@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "abbyzz_hoe",
+    "customModelName": "Normal",
+    "name": "Abbyzz Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 19,
+    "efficiency": 23.0,
+    "attackSpeed": 1.0,
+    "enchantability": 132,
+    "damageVsEntity": 19.0,
+    "usageCount": 5759,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Abbyzz"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tartiflette:abbyzz"
+    },
+    "1": {
+      "item": "tartiflette:abbyzz"
+    },
+    "2": {
+      "item": "tartiflette:abbyzz"
+    },
+    "3": {
+      "item": "tartiflette:abbyzz"
+    },
+    "4": {
+      "item": "tartiflette:abbyzz"
+    },
+    "5": {
+      "item": "tartiflette:abbyzz"
+    },
+    "6": {
+      "item": "tartiflette:abbyzz"
+    },
+    "7": {
+      "item": "tartiflette:abbyzz"
+    },
+    "8": {
+      "item": "tartiflette:abbyzz"
+    }
+  },
+  "result": {
+    "item": "tartiflette:deleted_mod_element",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tartiflette:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "tartiflette:abbyzz",
+    "count": 9
+  }
+}

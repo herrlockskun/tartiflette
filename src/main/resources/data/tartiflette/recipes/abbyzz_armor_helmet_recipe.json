@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tartiflette:abbyzz"
+    },
+    "1": {
+      "item": "tartiflette:abbyzz"
+    },
+    "2": {
+      "item": "tartiflette:abbyzz"
+    },
+    "3": {
+      "item": "tartiflette:abbyzz"
+    },
+    "5": {
+      "item": "tartiflette:abbyzz"
+    }
+  },
+  "result": {
+    "item": "tartiflette:abbyzz_armor_helmet",
+    "count": 1
+  }
+}
