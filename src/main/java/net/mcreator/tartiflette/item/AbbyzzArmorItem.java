@@ -51,12 +51,12 @@ public abstract class AbbyzzArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 4f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.2f;
 			}
 		}, slot, properties);
 	}

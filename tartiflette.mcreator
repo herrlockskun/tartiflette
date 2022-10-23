@@ -263,8 +263,8 @@
     "en_us": {
       "item.tartiflette.abbyzz_armor_chestplate": "Abbyzz Chestplate",
       "block.tartiflette.abbyzz_ore": "Abbyzz Ore",
-      "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
       "fluid.tartiflette.deepwater": "Deepwater",
+      "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
       "item.tartiflette.abbyzz_axe": "Abbyzz Axe",
       "item.tartiflette.abbyzz_shovel": "Abbyzz Shovel",
       "item.tartiflette.abbyzz_armor_helmet": "Abbyzz Helmet",
