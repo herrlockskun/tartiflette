@@ -1,9 +1,18 @@
 {
-  "block.tartiflette.deepwater": "Deepwater",
-  "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
   "fluid.tartiflette.deepwater": "Deepwater",
   "item.tartiflette.deepwater_bucket": "Deepwater Bucket",
-  "item.tartiflette.abbyzziumore": "Abbyzziumore",
+  "item.tartiflette.abbyzzium_pickase_hoe": "Abbyzzium_pickase Hoe",
   "block.tartiflette.abbyzzium": "Abbyzzium",
+  "item.tartiflette.abbyzzium_pickase_shovel": "Abbyzzium_pickase Shovel",
+  "item.tartiflette.abbyzzium_armor_armor_helmet": "Abbyzzium_armor Helmet",
+  "item.tartiflette.abbyzzium_armor_armor_leggings": "Abbyzzium_armor Leggings",
+  "item.tartiflette.abbyzzium_armor_armor_chestplate": "Abbyzzium_armor Chestplate",
+  "item.tartiflette.abbyzzium_pickase_pickaxe": "Abbyzzium_pickase Pickaxe",
+  "block.tartiflette.deepwater": "Deepwater",
+  "item.tartiflette.abbyzzium_pickase_sword": "Abbyzzium_pickase Sword",
+  "biome.tartiflette.abbyzzebiome": "Abbyzze_biome",
+  "item.tartiflette.abbyzzium_armor_armor_boots": "Abbyzzium_armor Boots",
+  "item.tartiflette.abbyzzium_pickase_axe": "Abbyzzium_pickase Axe",
+  "item.tartiflette.abbyzziumore": "Abbyzziumore",
   "item.tartiflette.abbyzze": "Abbyzze Portal Igniter"
 }

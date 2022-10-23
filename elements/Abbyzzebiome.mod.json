@@ -70,7 +70,7 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "treesPerChunk": 10,
-    "vanillaTreeType": "Savanna trees",
+    "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
     "treeStem": {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tartiflette:abbyzziumore"
+    },
+    "2": {
+      "item": "tartiflette:abbyzziumore"
+    },
+    "3": {
+      "item": "tartiflette:abbyzziumore"
+    },
+    "5": {
+      "item": "tartiflette:abbyzziumore"
+    }
+  },
+  "result": {
+    "item": "tartiflette:abbyzzium_armor_armor_boots",
+    "count": 1
+  }
+}

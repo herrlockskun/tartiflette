@@ -29,7 +29,7 @@ public class AbbyzziumBlock extends Block {
 						() -> new SoundEvent(new ResourceLocation("block.amethyst_cluster.place")),
 						() -> new SoundEvent(new ResourceLocation("block.amethyst_block.hit")),
 						() -> new SoundEvent(new ResourceLocation("block.amethyst_block.fall"))))
-				.strength(1f, 10f).requiresCorrectToolForDrops().speedFactor(0f).jumpFactor(0f));
+				.strength(100f, 10f).requiresCorrectToolForDrops().speedFactor(0f).jumpFactor(0f));
 	}
 
 	@Override

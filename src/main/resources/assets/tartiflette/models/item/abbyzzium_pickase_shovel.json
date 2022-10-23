@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tartiflette:items/abbyzzium_pickase_shovel"
+  }
+}
