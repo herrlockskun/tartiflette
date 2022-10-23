@@ -12,7 +12,7 @@
       "value": "Blocks.DEAD_BUBBLE_CORAL_BLOCK"
     },
     "fluidBlock": {
-      "value": "Blocks.DEAD_FIRE_CORAL_BLOCK"
+      "value": "CUSTOM:Deepwater"
     },
     "airColor": {
       "value": -8035585,
@@ -21,7 +21,7 @@
     "canRespawnHere": false,
     "hasFog": true,
     "isDark": true,
-    "doesWaterVaporize": true,
+    "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
@@ -45,7 +45,7 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "test2",
+    "texture": "lighter2",
     "portalTexture": "jesaispas",
     "enablePortal": true,
     "whenPortaTriggerlUsed": {

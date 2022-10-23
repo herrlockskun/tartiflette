@@ -10,7 +10,7 @@
       "value": "Blocks.DEAD_HORN_CORAL_BLOCK"
     },
     "underwaterBlock": {
-      "value": "Blocks.GLOWSTONE"
+      "value": "Blocks.CRYING_OBSIDIAN"
     },
     "airColor": {
       "value": -13893588,
@@ -25,11 +25,11 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -14496826,
+      "value": -16751002,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -13568,
+      "value": -16764109,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -71,7 +71,7 @@
     "cactiPerChunk": 0,
     "treesPerChunk": 10,
     "vanillaTreeType": "Savanna trees",
-    "treeType": 1,
+    "treeType": 0,
     "minHeight": 7,
     "treeStem": {
       "value": "Blocks.CRYING_OBSIDIAN"
@@ -106,7 +106,8 @@
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
-      "Caves"
+      "Caves",
+      "Ores"
     ],
     "spawnEntries": []
   }

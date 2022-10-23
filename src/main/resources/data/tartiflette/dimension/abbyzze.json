@@ -35,7 +35,10 @@
         "Name": "minecraft:dead_bubble_coral_block"
       },
       "default_fluid": {
-        "Name": "minecraft:dead_fire_coral_block"
+        "Name": "tartiflette:deepwater",
+        "Properties": {
+          "level": "0"
+        }
       },
       "noise": {
         "min_y": 0,
@@ -212,7 +215,7 @@
                       {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:glowstone"
+                          "Name": "minecraft:crying_obsidian"
                         }
                       }
                     ]

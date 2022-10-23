@@ -15,7 +15,7 @@
     "dripParticle": {
       "value": "ASH"
     },
-    "flowStrength": -1.0,
+    "flowStrength": 0.0,
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,
@@ -23,7 +23,7 @@
     "temperature": 300,
     "type": "WATER",
     "generateBucket": true,
-    "textureBucket": "deep_water",
+    "textureBucket": "bucket_deep_water",
     "creativeTab": {
       "value": "MISC"
     },
