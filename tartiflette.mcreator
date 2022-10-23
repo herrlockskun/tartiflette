@@ -268,7 +268,7 @@
       "name": "Abbyzze_woodLog",
       "type": "block",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_log"
     },
@@ -284,7 +284,7 @@
       "name": "Abbyzze_woodLeaves",
       "type": "block",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_leaves"
     },
@@ -292,7 +292,7 @@
       "name": "Abbyzze_woodStairs",
       "type": "block",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_stairs"
     },
@@ -300,7 +300,7 @@
       "name": "Abbyzze_woodSlab",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_slab"
     },
@@ -308,7 +308,7 @@
       "name": "Abbyzze_woodFence",
       "type": "block",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_fence"
     },
@@ -316,7 +316,7 @@
       "name": "Abbyzze_woodFenceGate",
       "type": "block",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_fence_gate"
     },
@@ -324,7 +324,7 @@
       "name": "Abbyzze_woodPressurePlate",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzze_wood_pressure_plate"
     },
@@ -420,7 +420,7 @@
       "name": "Abbyzzewood",
       "type": "plant",
       "sortid": 51,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "abbyzzewood"
     }
